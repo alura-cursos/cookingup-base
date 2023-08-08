@@ -26,6 +26,7 @@ export const IngredientesProvider = (props) => {
 
     const ingredienteEstaSelecionado = (ingrediente) => {
         // Verifica se o ingrediente está no array de ingredientes selecionados
+        // return ingrediente.nome.includes('Manteiga')
         return ingredientesSelecionados.some(item => item.id === ingrediente.id);
     };
 
