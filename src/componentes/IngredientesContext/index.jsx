@@ -13,8 +13,6 @@ export const IngredientesProvider = (props) => {
     const categorias = db.categorias;
     const [ingredientesSelecionados, setIngredientesSelecionados] = useState([]);
 
-
-
     const alternarIngrediente = (ingrediente) => {
         // Verifica se o ingrediente já foi selecionado
         if (ingredientesSelecionados.some(item => item.id === ingrediente.id)) {
