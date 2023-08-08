@@ -15,7 +15,7 @@ const RodapeContainer = styled.footer`
 
 const Rodape = () => {
     return (<RodapeContainer>
-        Desenvolvido por Alura | 2023 - Projeto fictício sem fins comerciais.
+        Desenvolvido por Alura - Projeto fictício sem fins comerciais.
     </RodapeContainer>)
 }
 
